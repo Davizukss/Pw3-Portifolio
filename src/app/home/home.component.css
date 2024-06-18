@@ -1,0 +1,22 @@
+
+.custom-jumbotron {
+    background: linear-gradient(90deg, #07233B 1.67%, #041D34 39.95%, #04192D 58.24%, #040E18 80.28%, #050C16 101.48%);
+    color: white;
+    font-weight: bold;
+}
+
+.custom-display {
+    color: white;
+    font-weight: 400;
+}
+
+.custom-btn {
+    background-color: #0b3761;
+}
+
+.imgHome {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    object-fit: cover;
+}

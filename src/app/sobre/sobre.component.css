@@ -1,0 +1,22 @@
+.container {
+    padding: 60px 0;
+  }
+  
+  h2 {
+    color: #fff;
+  }
+  
+  p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #fff;
+  }
+  
+  .img-fluid {
+    max-width: 100%;
+    transform: rotate(270deg);
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  

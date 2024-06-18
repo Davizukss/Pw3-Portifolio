@@ -1,9 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { CardDaviComponent } from './card-davi/card-davi.component';
-import { CardMiguelComponent } from './card-miguel/card-miguel.component';
 import { HomeComponent } from './home/home.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { SkillsComponent } from './skills/skills.component';
+import { SobreComponent } from './sobre/sobre.component';
+import { ContatoComponent } from './contato/contato.component';
 
 
 const routes: Routes = [
@@ -12,10 +13,13 @@ const routes: Routes = [
     path:'home', component: HomeComponent
   },
   {
-    path:'Davi', component: CardDaviComponent
+    path:'sobre', component: SobreComponent
   },
   {
-    path:'Miguel', component: CardMiguelComponent
+    path:'skills', component: SkillsComponent
+  },
+  {
+    path:'contato', component: ContatoComponent
   },
   {
     path:'NotFound', component: NotFoundComponent

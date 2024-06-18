@@ -1,0 +1,14 @@
+.fa-3x {
+    color: #fff;
+    transition: transform 0.3s;
+    padding-top: 30px;
+  }
+  
+  .fa-3x:hover {
+    transform: scale(1.2);
+  }
+  .container-custom{
+    margin-top: -35px;
+    height: 120px;
+    background:  #0e4677;
+  }

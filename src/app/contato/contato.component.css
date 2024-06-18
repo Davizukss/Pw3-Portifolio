@@ -1,0 +1,18 @@
+.containerContato {
+    background-color: #07233B; 
+    color: #fff;
+    padding: 60px 0; 
+    min-height: calc(100vh - 56px); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .containerContato form {
+    background-color: rgba(255, 255, 255, 0.1); 
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 600px; 
+  }
+  
