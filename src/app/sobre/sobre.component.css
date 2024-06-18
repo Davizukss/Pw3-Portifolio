@@ -1,5 +1,4 @@
 .container {
-    padding: 60px 0;
   }
   
   h2 {
@@ -12,7 +11,8 @@
     color: #fff;
   }
   
-  .img-fluid {
+  .img-fluid { 
+    padding: 60px;
     max-width: 100%;
     transform: rotate(270deg);
     height: auto;
